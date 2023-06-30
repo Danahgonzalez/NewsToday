@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" type="image/png" href="./img/Untitled-1.png">
+    <!-- Font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body style="font-family: 'Poppins', sans-serif;">
+    <nav class="w-100 navbar position-absolute z-1 px-3">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="index.html">News Today</a>
+      <button class="navbar-toggler border-0 bg-light-subtle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end bg-white" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header d-flex">
+          <h5 class="offcanvas-title fw-bold text-dark" id="offcanvasDarkNavbarLabel"><a href="index.html" class="nav-link">News <br> Today</a></h5>
+          <button type="button" class="btn-close btn-close-lg btn-close-dark align-self-start" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 fw-medium">
+            <li class="nav-item">
+              <a class="nav-link active text-dark" aria-current="page" href="#">POLITICS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">JUSTICE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">NATIONAL SECURITY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">WORLD</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">TECHNOLOGY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">ENVIRONMENT</a>
+            </li>
+            <hr>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">SPECIAL INVESTIGATIONS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">VOICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">PODCASTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark pb-3" href="#">DOCUMENTS</a>
+            </li>
+            <li class="nav-item">
+              <a href="login.html" class="btn d-flex rounded-0 text-white fw-semibold px-3" style="background-color: #6a59e6;">COMBIERTETE EN MIEMBRO -></a> 
+            </li>
+            <hr>
+            <nav class="d-flex gap-3">
+              <a href="mailto:danahgonzalezs@gmail.com" target="_blank"><img src="./img/correo.png" alt=""></a>
+              <a href="https://github.com/Danahgonzalez" target="_blank"><img src="./img/github.png" alt=""></a>
+              <a href="#" target="_blank"><img src="./img/linkedin.png" alt=""></a>
+            </nav>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </nav>
+
+    <section class="d-flex">
+      <section class="col-xl-6 col-lg-12 col-md-12 col-12 vh-100 d-flex justify-content-center align-items-center">
+        <main class="col-xl-8 col-lg-8 col-md-8 col-12 p-3">
+            <h2 class="text-decoration-underline mb-4">Sing Up</h2>
+
+            <form>
+                <div class="form-floating mb-4">
+                    <input type="email" class="form-control fw-light" id="email" placeholder="E-mail">
+                    <label for="email">E-mail</label>
+                </div>
+
+                <div class="form-floating mb-4">
+                    <input type="password" class="form-control" id="pass" placeholder="Password">
+                    <label for="pass">Password</label>
+                </div>
+
+                <div class="form-floating mb-4">
+                    <input type="password" class="form-control" id="repeatPass" placeholder="Repeat password">
+                    <label for="repeatPass">Repeat password</label>
+                </div>
+
+                <div class="form-check mb-5">
+                    <input type="checkbox" class="form-check-input" value="true" id="tems">
+                    <label for="tems" class="form-check-label">I agree Tems and Conditions</label>
+                </div>
+                
+                <button class="btn col-12 text-white py-2" style="background-color: #6a59e6;">Unete</button>
+            </form>
+        </main>
+      </section>
+
+      <section class="col-6 bg-secondary vh-100 card text-white rounded-0 border-0 d-xl-block d-lg-block d-md-none d-none">
+            <img src="img/pexels-gül-işık-3837409.jpg" class="w-100 h-100 object-fit-cover">
+            <div class="card-img-overlay d-flex justify-content-center align-items-center h-100">
+              <span class="card-title display-1 fw-bold">Join Our <br> Newsletter</span>
+            </div> 
+      </section>
+    </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Today</title>
+    <link rel="icon" type="image/png" href="./img/Untitled-1.png">
+    <!-- Font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body style="font-family: 'Poppins', sans-serif;">
+    <nav class="w-100 navbar navbar-dark position-absolute z-1 px-3">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="index.html">News Today</a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end bg-body-secondary" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header d-flex">
+          <h5 class="offcanvas-title fw-bold text-dark" id="offcanvasDarkNavbarLabel"><a href="index.html" class="nav-link">News <br> Today</a></h5>
+          <button type="button" class="btn-close btn-close-lg btn-close-dark align-self-start" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 fw-medium">
+            <li class="nav-item">
+              <a class="nav-link active text-dark" aria-current="page" href="#">POLITICS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">JUSTICE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">NATIONAL SECURITY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">WORLD</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">TECHNOLOGY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">ENVIRONMENT</a>
+            </li>
+            <hr>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">SPECIAL INVESTIGATIONS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">VOICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">PODCASTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark pb-3" href="#">DOCUMENTS</a>
+            </li>
+            <li class="nav-item">
+              <a href="login.html" class="btn d-flex rounded-0 text-white fw-semibold px-3" style="background-color: #6a59e6;">COMBIERTETE EN MIEMBRO -></a> 
+            </li>
+            <hr>
+            <nav class="d-flex gap-3">
+              <a href="mailto:danahgonzalezs@gmail.com" target="_blank"><img src="./img/correo.png" alt=""></a>
+              <a href="https://github.com/Danahgonzalez" target="_blank"><img src="./img/github.png" alt=""></a>
+              <a href="#" target="_blank"><img src="./img/linkedin.png" alt=""></a>
+            </nav>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </nav>
+
+    <header>
+      <div id="hero-carusel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <a href="notice.html" class="link-body-emphasis text-decoration-none">
+            <div class="carousel-item active" style="height: 495px;">
+              <img style="filter: brightness(0.6);" src="./img/America-Landmark-Climate-Law-Bordoff.jpg" class="card-img d-block w-100 h-100 object-fit-cover" alt="white house">
+              <div class="card-img-overlay d-flex align-items-end px-5 pb-5">
+                <h2 class="card-title text-white text-uppercase fw-semibold  pb-5">Changes In Legislation Will Impact Various sectors</h2>
+              </div>            
+            </div>
+          </a>
+
+          <a href="notice.html" class="link-body-emphasis text-decoration-none">
+            <div class="carousel-item" style="height: 495px;">
+              <img style="filter: brightness(0.6);" src="img/fondo-espacio-exterior.jpg " class="card-img d-block w-100 h-100 object-fit-cover" alt="galaxy">
+              <div class="card-img-overlay d-flex align-items-end px-5 pb-5">
+                <h2 class="card-title text-white text-uppercase fw-semibold  pb-5">discovery reveals new secrets of the universe </h2>
+              </div>            
+            </div>
+          </a>
+
+          <a href="notice.html" class="link-body-emphasis text-decoration-none">
+            <div class="carousel-item" style="height: 495px;">
+              <img style="filter: brightness(0.6);" src="img/disparo-angulo-fabrica-humo-vapor-saliendo-chimeneas-capturado-al-atardecer.jpg" class="card-img d-block w-100 h-100 object-fit-cover" alt="companys">
+              <div class="card-img-overlay d-flex align-items-end px-5 pb-5">
+                <h2 class="card-title text-white text-uppercase fw-semibold  pb-5">Greenhouse Gas Emissions Reach Record Levels</h2>
+              </div>            
+            </div>
+          </a>
+      </div>
+    </header>
+
+    <main class="container py-5">
+      <h3 class="fw-semibold">TOP STORIES</h3>
+      <section class="row gap-md-3 gap-3">
+        <div class=" col-lg col-md-12 col-12">
+          <a href="notice.html" class="link-body-emphasis text-decoration-none">
+            <div class="card p-0 rounded-5">
+              <img src="./img/us.jpeg" class="card-img-top rounded-top-5" alt="white house">
+              <div class="card-body p-5">
+                <h4 class="card-title mb-0 text-body-emphasis">Nuclear Town</h4>
+                <time class="small mb-2 d-block text-secondary">Nov 12</time>
+                <p class="card-text">The high school in Reachard, Wash. is emblazoned with a mushrooom</p>
+              </div>
+            </div>
+          </a>
+        </div>
+  
+        <div class="col-lg col-md-12 col-12 gap-md-3 gap-3 d-flex flex-column justify-content-between">
+            <div class="card rounded-4 p-3">
+              <a href="notice.html" class="link-body-emphasis text-decoration-none">
+                <div class="card-body">
+                  <h4 class="card-title mb-0 text-body-emphasis">Downsizing in Retirement</h4>
+                  <time class="small mb-2 d-block text-secondary">Nov 10</time>
+                  <p class="card-text">On the way to spending less, people often have to shell out more especially.</p>
+                </div>
+              </a>
+            </div>
+  
+            <div class="card rounded-4 p-3">
+              <a href="notice.html" class="link-body-emphasis text-decoration-none">
+                <div class="card-body">
+                  <h4 class="card-title mb-0 text-body-emphasis">The U.S Must Invest</h4>
+                  <time class="small mb-2 d-block text-secondary">Nov 20</time>
+                  <p class="card-text">After a summer full of breaks, guest hosts and repeats, the late-night hosts returned to the air.</p>
+                </div>
+              </a>
+            </div>
+  
+            <div class="card rounded-4 p-3">
+              <a href="notice.html" class="link-body-emphasis text-decoration-none">
+                <div class="card-body">
+                  <h4 class="card-title mb-0 text-body-emphasis">Buy American?</h4>
+                  <time class="small mb-2 d-block text-secondary">Nov 14</time>
+                  <p class="card-text">He documents the F.B.I. found at Mar-a-Lago and, later in the week, Queen Elizabeth’s death at 96...</p>
+                </div>
+              </a>
+            </div>
+        </div>
+      </section>
+
+      <hr>
+
+      <section class="row row-cols-3 justify-content-between gap-md-3 gap-3">
+        <div class="col-lg col-md-12 col-12">
+          <a href="notice.html" class="link-body-emphasis text-decoration-none">
+            <div class="card p-0 col rounded-5">
+              <img src="./img/Arboles-y-el-artico-4.png" class="card-img-top rounded-top-5" alt="white house">
+              <div class="card-body d-flex justify-content-center flex-column p-4">
+                <h4 class="card-title mb-0 text-body-emphasis">Join Al Gore</h4>
+                <time class="small mb-2 d-block text-secondary">Nov 12</time>
+                <p class="card-text">We’ll discuss how climate change exaxerbates other global changes</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg col-md-12 col-12">
+          <a href="notice.html" class="link-body-emphasis text-decoration-none">
+            <div class="card p-0 col rounded-5">
+              <img src="./img/aborto.png" class="card-img-top rounded-top-5" alt="white house">
+              <div class="card-body d-flex justify-content-center flex-column p-4">
+                <h4 class="card-title mb-0 text-body-emphasis">Weird Al Daniel</h4>
+                <time class="small mb-2 d-block text-secondary">Nov 15</time>
+                <p class="card-text">State abortion bans carry narrow but sometimes vague exceptions.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg col-md-12 col-12">
+          <a href="notice.html" class="link-body-emphasis text-decoration-none">
+            <div class="card p-0 col rounded-5">
+              <img src="./img/olive oil.png" class="card-img-top rounded-top-5" alt="white house">
+              <div class="card-body d-flex justify-content-center flex-column p-4">
+                <h4 class="card-title mb-0 text-body-emphasis">Olive Oil Capital</h4>
+                <time class="small mb-2 d-block text-secondary">Nov 12</time>
+                <p class="card-text">Spain’s Jaén Province, home to ne fifh of the world’s supply of green gold”.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <hr>
+
+      <section>
+        <div class="card text-bg-dark rounded-5 border-0" style="height: 149px;">
+          <img src="./img/original.jpg" class="card-img rounded-5 h-100 object-fit-cover" alt="..." style="filter: brightness(0.6);">
+          <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
+            <h5 class="card-title mb-3 text-center">Over 3000 people Subscibed</h5>
+            <a href="login.html" class="btn btn-outline-light">Unete</a>
+          </div>
+        </div>
+      </section>
+
+      <hr>
+
+      <section class="row row-cols-3 justify-content-between gap-md-3 gap-3">
+        <div class="col-lg col-md-12 col-12">
+          <a href="notice.html" class="link-body-emphasis text-decoration-none">
+            <div class="card p-0 col rounded-5">
+              <img src="./img/christine.png" class="card-img-top rounded-top-5" alt="white house">
+              <div class="card-body d-flex justify-content-center flex-column p-4">
+                <h4 class="card-title mb-0 text-body-emphasis">Coup champion</h4>
+                <time class="small mb-2 d-block text-secondary">Nov 12</time>
+                <p class="card-text">Also in this edition: Christine Baranki’s throwback fair.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg col-md-12 col-12">
+          <a href="notice.html" class="link-body-emphasis text-decoration-none">
+            <div class="card p-0 col rounded-5">
+              <img src="./img/pinocho.jpeg" class="card-img-top rounded-top-5" alt="white house">
+              <div class="card-body d-flex justify-content-center flex-column p-4">
+                <h4 class="card-title mb-0 text-body-emphasis">Pinochio Review</h4>
+                <time class="small mb-2 d-block text-secondary">Nov 12</time>
+                <p class="card-text">A marathon 50 years ago kick-started the modern day “running boom”</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg col-md-12 col-12">
+          <a href="notice.html" class="link-body-emphasis text-decoration-none">
+            <div class="card p-0 col rounded-5">
+              <img src="./img/tv.png" class="card-img-top rounded-top-5" alt="white house">
+              <div class="card-body d-flex justify-content-center flex-column p-4">
+                <h4 class="card-title mb-0 text-body-emphasis">Story Grows</h4>
+                <time class="small mb-2 d-block text-secondary">Nov 12</time>
+                <p class="card-text">The future of TV is increasingly in the past, James Poniewozik writes.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>   
+      
+      <hr>
+
+      <h3 class="fw-semibold">WORLD'S NEWS</h3>
+      <section class="row gap-md-3 gap-3">
+        <div class="col-lg col-md-12 col-12">
+          <a href="notice.html" class="link-body-emphasis text-decoration-none">
+            <div class="card p-0 rounded-5">
+              <img src="./img/trump and twitter.png" class="card-img-top rounded-top-5" alt="white house">
+              <div class="card-body p-5">
+                <h4 class="card-title mb-0 text-body-emphasis">Trump vs Twitter</h4>
+                <time class="small mb-2 d-block text-secondary">Nov 12</time>
+                <p class="card-text">The two sides hs diverging views of the files seized from former President Trump’s home</p>
+              </div>
+            </div>
+          </a>
+        </div>
+  
+          <div class="col-lg col-md-12 col-12 d-flex flex-column justify-content-between gap-md-3 gap-3">
+            <div class="card rounded-4 p-2">
+              <a href="notice.html" class="link-body-emphasis text-decoration-none">
+                <div class="card-body">
+                  <h4 class="card-title mb-0 text-body-emphasis h5">Korean War Fast Facts</h4>
+                  <time class="small mb-2 d-block text-secondary">Nov 10</time>
+                  <p class="card-text">Here’s a look at the Korean War. Although hostilities ceased in 1953, there has been no formal end to the war.</p>
+                </div>
+              </a>
+            </div>
+  
+            <div class="card rounded-4 p-2">
+              <a href="notice.html" class="link-body-emphasis text-decoration-none">
+                <div class="card-body">
+                  <h4 class="card-title mb-0 text-body-emphasis h5">Messi going to MLS club</h4>
+                  <time class="small mb-2 d-block text-secondary">Nov 20</time>
+                  <p class="card-text">Argentine superstar Lionel Messi said Wednesday he’s going to join the Major League Soccer club Inter Miami.</p>
+                </div>
+              </a>
+            </div>
+  
+            <div class="card rounded-4 p-2">
+              <a href="notice.html" class="link-body-emphasis text-decoration-none">
+                <div class="card-body">
+                  <h4 class="card-title mb-0 text-body-emphasis h5">Early Stars Form galaxy</h4>
+                  <time class="small mb-2 d-block text-secondary">Nov 14</time>
+                  <p class="card-text">The James Webb Space Telescope set its sights on a galaxy 20 million light-years away.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <section class="col-2 d-lg-block d-md-none d-none">
+            <div class="card text-bg-dark rounded-5 border-0 h-100">
+              <img src="./img/original.jpg" class="card-img rounded-5 h-100 object-fit-cover" alt="..." style="filter: brightness(0.6);">
+              <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
+                <h5 class="card-title mb-3 text-center">Over 3000 people Subscibed</h5>
+                <a href="login.html" class="btn btn-outline-light">Unete</a>
+              </div>
+            </div>
+          </section>
+
+          <section class="d-lg-none">
+            <div class="card text-bg-dark rounded-5 border-0" style="height: 149px;">
+              <img src="./img/original.jpg" class="card-img rounded-5 h-100 object-fit-cover" alt="..." style="filter: brightness(0.6);">
+              <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
+                <h5 class="card-title mb-3 text-center">Over 3000 people Subscibed</h5>
+                <a href="login.html" class="btn btn-outline-light">Unete</a>
+              </div>
+            </div>
+          </section>
+      </section>
+    </main>
+
+    <footer class="bg-dark p-5">
+      <div class="d-flex justify-content-between align-items-center flex-lg-row flex-md-column flex-column gap-md-5 gap-5">
+        <a class="m-0 text-white fw-bold text-decoration-none h3" href="#">News <br> Today</a>
+
+        <form>
+          <div class="d-flex flex-lg-row flex-md-column flex-column gap-1">
+              <input type="email" name="email" id="mail" class="form-control border-0 shadow-none rounded-0 ps-3 text-lg-start text-md-center text-center" placeholder="your email">
+              <button for="mail" class="btn btn-outline-light rounded-0">Unete</button>
+          </div>
+        </form>
+      </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</html>
